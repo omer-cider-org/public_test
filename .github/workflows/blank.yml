@@ -35,5 +35,5 @@ jobs:
             -f 'name=aaaaaa' \
             -f 'head_sha=${{ github.event.pull_request.head.sha }}' \
             -f 'status=in_progress' \
-            -f 'output[title]=A Mighty Summary' \
+            -f 'output[summary]=A Mighty Summary' \
             /repos/${{ github.repository }}/check-runs   
